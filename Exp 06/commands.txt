@@ -1,0 +1,6 @@
+[cdlab88@localhost evaluate_expression]$ vi expr.l
+[cdlab88@localhost evaluate_expression]$ vi expr.y
+[cdlab88@localhost evaluate_expression]$ lex expr.l
+[cdlab88@localhost evaluate_expression]$ yacc -d expr.y
+[cdlab88@localhost evaluate_expression]$ gcc lex.yy.c y.tab.c -o evaluator
+[cdlab88@localhost evaluate_expression]$ ./evaluator
