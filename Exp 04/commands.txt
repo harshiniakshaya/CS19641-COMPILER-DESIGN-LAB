@@ -1,0 +1,5 @@
+[cdlab88@localhost desk_calculator]$ vi desk_calculator.l
+[cdlab88@localhost desk_calculator]$ vi sample.c
+[cdlab88@localhost desk_calculator]$ lex desk_calculator.l
+[cdlab88@localhost desk_calculator]$ gcc lex.yy.c sample.c -o desk_calculator
+[cdlab88@localhost desk_calculator]$ ./desk_calculator
