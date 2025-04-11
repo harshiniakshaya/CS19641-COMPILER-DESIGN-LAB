@@ -1,0 +1,5 @@
+[cdlab88@localhost valid_variable]$ vi identifier.y
+[cdlab88@localhost valid_variable]$ lex identifier.l
+[cdlab88@localhost valid_variable]$ yacc -d identifier.y
+[cdlab88@localhost valid_variable]$ gcc lex.yy.c y.tab.c -o identifier
+[cdlab88@localhost valid_variable]$ ./identifier
